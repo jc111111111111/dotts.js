@@ -31,7 +31,6 @@ function draw()
 		dott.velX += mouseX-dott.x;
 		dott.velY += mouseY-dott.y; 
 	}
-	encoder.addFrame(context);
 }
 
 function mouseMoveHandler(event)
